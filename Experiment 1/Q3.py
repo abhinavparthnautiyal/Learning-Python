@@ -1,3 +1,4 @@
 length=float(input("Enter the length of the rectangle : "))
 breadth=float(input("Enter the breadth of the rectangle : "))
-print("The area of the triangle is ", length * breadth)
+Area=length*breadth
+print("The area of the rectangle is ",Area)
