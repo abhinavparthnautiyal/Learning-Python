@@ -1,3 +1,4 @@
+#WAP to exchange the values of two numbers without using a temporary variable
 num1=input("Enter the value of mum1: ")
 num2=input("Enter the value of num2: ")
 num1,num2 = num2,num1
