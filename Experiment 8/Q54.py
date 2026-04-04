@@ -3,7 +3,7 @@ Uses an if condition to check if n is negative
 Uses a loop to calculate factorial
 Returns the factorial value"""
 def factorial(n):
-    factorial=1
+    fact = 1
     if n<0:
         print("n is negative")
         return
@@ -11,8 +11,8 @@ def factorial(n):
         pass
     else:
         for i in range(1,n+1):
-            factorial=factorial*i
-    return factorial
+            fact*=i
+    return fact
 
 
 num=int(input("Enter the number whose factorial you want to find: "))
